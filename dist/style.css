@@ -1,0 +1,293 @@
+
+:root{
+    --bg-main : #ffde73 ; 
+    --bg-bold : #c26c09 ; 
+    --bg--item : #ffc60b;
+}
+body{
+    font-size: 20px;
+}
+*{
+    padding : 0; 
+    margin:  0;
+}
+#content{
+    background: var(--bg-main);
+}
+.container{
+    min-height: 570px;
+    padding-top: 2.5rem;
+    background: url("https://eckben.github.io/bearysBreakfastBar/img/643.png") ;
+}
+.container > .active{
+    display: block !important;
+}
+img{
+    width: 100%;
+}
+.container > div{
+    display: none;
+    
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    background: var(--bg-main);
+    padding: 2rem;
+    border-radius: 10px;
+}
+.title{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 710px;
+    height: 60px;
+    padding: 10px;
+    background: var(--bg-bold);
+    clip-path: polygon( 0 33.3%, 6% 0, 94% 0, 100% 33.3%, 100% 66.6%, 94% 100%, 6% 100%, 0 66.6%);
+
+}
+.title > h1{
+    background-color: var(--bg--item);
+    box-sizing: border-box;
+    width: 710px;
+    height: 60px;
+    text-align: center;
+    font-size: 3rem;
+    clip-path: polygon( 0 33.3%, 5% 0, 95% 0, 100% 33.3%, 100% 66.6%, 95% 100%, 5% 100%, 0 66.6%);
+}
+
+
+.title > div{
+    position: absolute;
+    width: 40px;
+}
+.title > div:nth-of-type(1){
+    position: absolute;
+    top : 45% ;
+    z-index: 10000; 
+    right: 50px;
+    transform:rotate(100deg);;
+}
+.title > div:nth-of-type(2){
+    position: absolute;
+    top : 0 ; 
+    left: 50px;
+    z-index: 10000;
+}
+.tab{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.tab > button{
+    font-size: 1.2rem;
+    padding: .7rem 1.3rem;
+    border: 1px solid var(--bg-bold);
+    background: var(--bg--item);
+    border-bottom: none;
+    
+}
+.bolder{
+    background: var(--bg-bold) !important;
+}
+.tab > button:nth-of-type(2){
+    margin: 0 2rem;
+}
+.goldilock{
+    background: var(--bg-bold);
+    padding: 1rem;
+    max-width: 470px;
+    margin: 0 auto;
+    clip-path: polygon( 0 20%, 15% 0,
+    85% 0,100% 20%,
+    100% 80%, 85% 100%,
+    15% 100%, 0 80%);
+    position: relative;
+}
+
+.goldilock >div{
+    background: var(--bg--item);
+    clip-path: polygon( 0 20%, 15% 0,
+    85% 0,100% 20%,
+    100% 80%, 85% 100%,
+    15% 100%, 0 80%);
+}
+.goldilock >div{
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+
+}
+.goldilock >div >p:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 700;
+    float:left;
+    margin-top: .5rem;
+    margin-left: 2rem;
+}
+
+.hours{
+    background: var(--bg-bold);
+    padding: 1rem;
+    max-width: 470px;
+    margin: 0 auto;
+    clip-path: polygon( 0 20%, 15% 0,
+    85% 0,100% 20%,
+    100% 80%, 85% 100%,
+    15% 100%, 0 80%);
+    margin-top: 2rem;
+}
+.hours >div{
+    background: var(--bg--item);
+    clip-path: polygon( 0 20%, 15% 0,
+    85% 0,100% 20%,
+    100% 80%, 85% 100%,
+    15% 100%, 0 80%);
+}
+.hours >div{
+    padding: 1.5rem;
+
+
+}
+.hours >div >p:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 2rem;
+ 
+}
+.hours >div > div{
+    text-align: center;
+}
+.location{
+    background: var(--bg-bold);
+    padding: 1rem;
+    max-width: 470px;
+    margin: 0 auto;
+    clip-path: polygon( 0 20%, 15% 0,
+    85% 0,100% 20%,
+    100% 80%, 85% 100%,
+    15% 100%, 0 80%);
+    margin-top: 2rem;
+}
+.location >div{
+    background: var(--bg--item);
+    clip-path: polygon( 0 20%, 15% 0,
+    85% 0,100% 20%,
+    100% 80%, 85% 100%,
+    15% 100%, 0 80%);
+}
+.location >div{
+    padding: 1.5rem;
+
+
+}
+.location >div >p:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 2rem;
+ 
+}
+.location >div > p:nth-of-type(2){
+    text-align: center;
+}
+.menu > div:nth-of-type(2) > div{
+ max-width: 400px;
+ margin:  0 auto;
+}
+.menu > div:nth-of-type(2) > div {
+    background: var(--bg-bold);
+    padding: 1rem;
+    clip-path: polygon( 0 10%, 15% 0,
+    85% 0,100% 10%,
+    100% 90%, 85% 100%,
+    15% 100%, 0 90%);
+    margin-bottom: 2rem;
+}
+.menu > div:nth-of-type(2) > div  > div{
+    background: var(--bg--item);
+    clip-path: polygon( 0 10%, 15% 0,
+    85% 0,100% 10%,
+    100% 90%, 85% 100%,
+    15% 100%, 0 90%);
+    padding: 2rem;
+    
+}
+.menu > div:nth-of-type(2) > div  > div > p:nth-of-type(1){
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+.menu > div:nth-of-type(2) > div  > div > p:nth-of-type(2){
+    
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+.menu > div:nth-of-type(2) > div  > div > p:nth-of-type(3){
+    
+  
+    font-weight: 600;
+    margin-left: 1.5rem;
+}
+
+.menu > div:nth-of-type(2) > div  > div > div{
+  overflow: hidden;
+  width: 197px;
+  height: 166px;
+  margin-left:  auto;
+  border: 2px solid var(--bg-bold);
+  border-radius: 10px;
+  position: relative;
+  margin-right: 2rem;
+ padding-bottom: 2rem;
+}
+.menu > div:nth-of-type(2) > div  > div > div > img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+}
+.contact > div:nth-of-type(2) {
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+.contact > div:nth-of-type(2) > div{
+    padding: 1rem;
+    background: var(--bg-bold);
+    clip-path: polygon( 0 10%, 15% 0,
+    85% 0,100% 10%,
+    100% 90%, 85% 100%,
+    15% 100%, 0 90%);
+    margin-top: 3rem;
+} 
+.contact > div:nth-of-type(2) > div >div > div{
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    
+    border: 2px solid var(--bg-bold);
+    border-radius: 10px;
+    position: relative;
+    float: right;
+    margin-top: -8rem;
+}
+.contact > div:nth-of-type(2) > div >div > div img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+}
+.contact > div:nth-of-type(2) > div >div{
+    background: var(--bg--item);
+    clip-path: polygon( 0 10%, 15% 0,
+    85% 0,100% 10%,
+    100% 90%, 85% 100%,
+    15% 100%, 0 90%);
+    padding: 3rem;
+    
+};
+
